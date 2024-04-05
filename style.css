@@ -1,0 +1,258 @@
+nav button  {
+   font-size: 20px; /* Tamaño de fuente */
+   padding: 10px 80px; /* Relleno del botón */
+}
+
+nav{
+   display:grid;
+   align-items: center;
+   background-color: #333333;
+   font-family: sans-serif;
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   z-index: 1000;
+   overflow: hidden; 
+}
+
+
+nav .barranav {
+   display: grid;
+   grid-template-columns: repeat(5, auto);
+   margin-right: 30px;
+}
+
+nav .barranav div {
+   padding: 20px;
+   font-size: 18px; /* Ajustado el tamaño de la fuente de los botones de la barra de navegación */
+}
+
+nav .barranav div a:hover {
+   cursor: pointer;
+}
+
+nav .barranav div a {
+   font-size: 18px;
+   text-decoration: none;
+   color: #1ec988;
+   text-shadow: 1px 0px 0px black,
+               0px 1px 0px black,
+               -1px 0px 0px black,
+               0px -1px 0px black;
+}
+
+#podio{
+   display: flex;
+   justify-content: space-between;
+}
+
+#podio div{
+   text-align: center;
+   padding: 50px;
+}
+
+#pos1 {
+   margin-top: 10%;
+   font-size: 15px;
+   background-repeat: no-repeat;
+   background-image: url("../IMAGES/posicion1.png");
+   background-size: 180px 180px;
+   width: 85px;
+}
+
+#pos2 {
+   margin-top: 10%;
+   font-size: 15px;
+   background-repeat: no-repeat;
+   background-image: url("../IMAGES/posicion2.png");
+   background-size: 180px 180px;
+   width: 85px;
+}
+
+#pos3 {
+   margin-top: 10%;
+   font-size: 15px;
+   background-repeat: no-repeat;
+   background-image: url("../IMAGES/posicion3.png");
+   background-size: 180px 180px;
+   width: 85px;
+}
+
+#finalistas {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-top: 50px;
+}
+
+#finalistas div {
+   width: 50%;
+   border: 3px solid black;
+   display: flex;
+   justify-content: space-between;
+}
+
+#finalistas div p {
+   margin-left: 15px;
+   margin-right: 15px;
+}
+
+#pos4 {
+   background-repeat: no-repeat;
+   background-color: rgb(255, 141, 255);
+}
+
+#pos5 {
+   background-repeat: no-repeat;
+   background-color: rgb(255, 141, 255);
+}
+
+body {
+   background-color: #949494;
+   margin: 0; /* Agregado para eliminar el margen predeterminado del body */
+}
+
+.QUIZ {
+   text-align: center;
+   margin-top: 80px; /* Ajustado el margen superior del contenido */
+   font-size: 135px; /* Ajustado el tamaño de la fuente del título QUIZ */
+}
+
+.QUIZ a {
+   text-decoration: none;
+   color: #009159;
+   font-family: Impact;
+}
+
+.QUIZ :hover{
+   color: #1ec988;
+}
+
+#correct-answers{
+   margin-top: 7%;
+}
+
+.register{
+   margin-top: 7%;
+}
+
+audio{
+   margin-top: 10%;
+}
+
+*{
+   MARGIN: 0;
+   padding: 0;
+   font-family: sans-serif;
+}
+
+body{
+   background: linear-gradient(rgba(0,0,0,0.2)50%);
+   background-position: center;
+   background-size: cover;
+   height: 100vh;
+}
+
+.form{
+   width: 250px;
+   height: 340px;
+   color: #fff;
+   background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   border-radius: 10px;
+   padding: 40px 25px;
+}
+
+.form h1{
+   width: 220px;
+   text-align: center;
+   padding-left: 11px;
+   margin-bottom: 20px;
+   font-size: 35px;
+   color: #1ec988
+}
+
+.form input{
+   width: 100%;
+   height: 35px;
+   padding-top: 10px;
+   margin-bottom: 15px;
+   background: transparent;
+   border-bottom: 1px solid #fff;
+   border-top: none;
+   border-left: none;
+   border-right: none;
+   color: #fff;
+   font-size: 15px;
+   letter-spacing: 1px;
+   outline: none;
+}
+
+.form input:focus{
+   outline: none;
+}
+
+::placeholder{
+   color: #fff;
+   font-family: Arial;
+}
+
+.btnn{
+   font-size: 18px;
+   padding: 10px 15px;
+   background: transparent;
+   border: none;
+   margin-top: 10px;
+   margin-left: 40px;
+   cursor: pointer;
+}
+
+.btnn a{
+   text-decoration: none;
+   color: #1ec988;
+   font-weight: bold;
+}
+
+.btnn a:hover{
+   color: #00ff9d;
+}
+
+.form .link{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 17px;
+   padding-top: 10px;
+   text-align: center;
+}
+
+.form .link a{
+   text-decoration: none;
+   color: #1ec988
+}
+
+.form .link a:hover{
+   color: #00ff9d;
+}
+
+.boton{
+   font-size: 18px;
+   padding: 10px 15px;
+   background: transparent;
+   border: none;
+   margin-top: 10px;
+   margin-left: 40px;
+   cursor: pointer;
+}
+
+.boton a{
+   text-decoration: none;
+   color: #009159;
+   font-weight: bold;
+}
+
+.boton a:hover{
+   color: #1ec988;;
+}
